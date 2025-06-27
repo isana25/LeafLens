@@ -19,7 +19,7 @@ This project uses **MobileNetV2** as the core model for plant disease classifica
    – You upload or pass a photo of a plant leaf (could be healthy or diseased).
 
 2. **🧠 Detects the type of disease (if any)**  
-   – The trained model analyzes the image and predicts which disease the plant might have — or says it's healthy.
+   – The trained model analyzes the image and predicts which disease the plant might have, or says it's healthy.
 
 3. **🔍 Classifies among multiple diseases**  
    – The model is trained on **many different classes**, like:  
@@ -46,3 +46,34 @@ This kind of project can help:
 You can run the complete project, including training and testing, using this Colab notebook:
 
 👉 [Open LeafLens on Colab](https://colab.research.google.com/drive/1QMBhr7lSGS7av_qnAmYQxYW1OE02yBfA?usp=sharing)
+
+
+# 🌿 Gradio-Based Project
+
+A lightweight deep learning web app built with Gradio and MobileNetV2 to detect plant leaf diseases using images.
+
+## 🧠 Model
+- Architecture: MobileNetV2 (pretrained on ImageNet)
+- Fine-tuned on: [PlantDoc Dataset](https://github.com/pratikkayal/PlantDoc-Dataset)
+- Format: HDF5 (`.h5`) or native Keras (`.keras`)
+
+## 📁 Dataset
+- PlantDoc: 2,598 images of diseased and healthy leaves
+- Classes: Tomato_Early_blight, Apple_Black_rot, Potato_Late_blight, and more
+
+## 🚀 Deployment
+This app is deployed on Hugging Face Spaces using:
+- Gradio UI
+- `app.py` as the main entry point
+- `requirements.txt` to install packages
+
+## 🖼 Demo
+![App Screenshot](assets/leafLens.png)
+
+## 🔧 Setup Locally
+```bash
+git clone https://github.com/your-username/smart-plant-disease-detector
+cd smart-plant-disease-detector
+pip install -r requirements.txt
+python app.py
+
