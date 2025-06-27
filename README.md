@@ -40,3 +40,9 @@ This kind of project can help:
 - **Farmers** detect plant issues early using mobile apps  
 - **Agricultural experts** monitor crop health at scale  
 - **Researchers** build smart farming solutions
+
+## 📓 Try it on Colab
+
+You can run the complete project, including training and testing, using this Colab notebook:
+
+👉 [Open LeafLens on Colab](https://colab.research.google.com/drive/1QMBhr7lSGS7av_qnAmYQxYW1OE02yBfA?usp=sharing)
