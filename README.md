@@ -68,7 +68,7 @@ This app is deployed on Hugging Face Spaces using:
 - `requirements.txt` to install packages
 
 ## 🖼 Demo
-![App Screenshot](assets/leafLens.png)
+![App Screenshot](LeafLens.png)
 
 ## 🔧 Setup Locally
 ```bash
